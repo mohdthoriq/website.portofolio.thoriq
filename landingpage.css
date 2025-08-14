@@ -1,0 +1,397 @@
+body {
+    background: rgba(9, 9, 121, 1) 100%;
+    overflow: auto;
+}
+.head {
+    color:  white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    text-shadow: 2px 2px 5px rgb(201, 201, 252);
+}
+.web {
+    color: white;
+    font-family: arial;
+    font-size: 20px;
+}
+h3 {
+    font-family: arial;
+    position: absolute;
+    bottom: -450px;
+    left: 550px;
+    
+}
+
+.gambar {
+    /* background-color: salmon; */
+    position: absolute;
+    overflow: hidden;
+    border-radius: 30px;
+    /* border-style: solid; */
+    right: 50px;
+    top: 150px;
+    display: block;
+    /* object-fit: contain; */
+}
+    .gambar:hover,.gambar:active {
+        border-radius: 50%;
+        transition: 0.5s;
+        box-shadow: 8px 8px 8px rgba(0,0,0,0.5);
+    }
+.about {
+    background-color: transparent;
+    width: 300px;
+    position: absolute;
+    top: 190px;
+    right: 300px;
+}
+    .about2 {
+        position: absolute;
+        bottom: 100px;
+        right: 0px;
+        width: 50%;
+    }
+
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: center;   
+}
+.head2 {
+     color: black;
+     text-shadow: 2px 2px 5px white;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 50px;
+     position: absolute;
+     right: 480px;
+     top: 550px;
+}
+p {
+    font-size: 20px;
+    font-family: arial;
+    
+}
+.logo {
+    position: absolute;
+    right: 30%;
+    top: 110%;
+}
+.conteiner  {
+    flex-direction: row;
+    width: 500px;
+    height: 200px;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 20px;
+    padding: 40px;
+    justify-items: center;
+    background-color: transparent;
+    position: absolute;
+    right: 350px;
+    margin-bottom: 50px;
+    top: 700px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    display: block;
+    text-align: center;
+}
+.box {
+    background-color: #ccc;
+    width: 350px;
+    height: 100px;
+    /* overflow: hidden; */
+    text-align: center;
+    border-radius: 20px;
+    margin: 20px;
+    display: block;
+    transition: 0.5s ease; 
+    background-size: cover;
+    background-position: center;
+    animation: animasibox 5s ease infinite forwards;
+}
+@keyframes animasibox {
+    0% {
+        width: 50px;
+        height: 50px;
+    }
+    50% {
+        width: 350px;
+        height: 50px;
+    }
+    100% {
+        width: 350px;
+        height: 100px;
+    }
+}
+.box-1 img {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+.box-1 a {
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-bottom: 50px;
+    padding-right: 100px;
+    text-align: center;
+    line-height: 100px;
+}
+.box-1:hover {
+    box-shadow: 2px 30px 7px -10px rgba(80, 90, 100, 10);
+    background-image:url(ss-portofolio.png);
+    margin-top: 30px;
+    transform: scale(1.5, 2);
+    border-radius: 20px;
+}
+.box-2 img {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+.box-2 a {
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-bottom: 50px;
+    padding-right: 100px;
+    text-align: center;
+    line-height: 100px;
+}
+.box-2:hover {
+    box-shadow: 2px 30px 7px -10px rgba(80, 90, 100, 10);
+    background-color: blue;
+    margin-top: 30px;
+    transform: scale(1.5, 2);
+    border-radius: 20px;
+}
+.box-3 img {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+.box-3 a {
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-bottom: 50px;
+    padding-right: 100px;
+    text-align: center;
+    line-height: 100px;
+}
+.box-3:hover {
+    box-shadow: 2px 30px 7px -10px rgba(80, 90, 100, 10);
+    background-color: blue;
+    margin-top: 30px;
+    transform: scale(1.5, 2);
+    border-radius: 20px;
+}
+.box-4 img {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+.box-4 a {
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-bottom: 50px;
+    padding-right: 100px;
+    text-align: center;
+    line-height: 100px;
+}
+.box-4:hover {
+    box-shadow: 2px 30px 7px -10px rgba(80, 90, 100, 10);
+    background-color: blue;
+    margin-top: 30px;
+    transform: scale(1.5, 2);
+    border-radius: 20px;
+}
+.box-5 img {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+.box-5 a {
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-bottom: 50px;
+    padding-right: 100px;
+    text-align: center;
+    line-height: 100px;
+}
+.box-5:hover {
+    box-shadow: 2px 30px 7px -10px rgba(80, 90, 100, 10);
+    background-color: blue;
+    margin-top: 30px;
+    transform: scale(1.5, 2);
+    border-radius: 20px;
+}
+.medsos {
+    font-size: 20px;
+    margin-top: auto;
+    position: absolute;
+    right: 530px;
+    bottom: -80%;
+    display: flex;
+    gap: 70px;
+    align-items: center;
+}
+    .medsos:hover .satu img{
+        transform: scale(1.2);
+        margin-top: 3px;
+        transition: 1s;
+    }  
+    .medsos:hover .dua img {
+        transform: scale(1.2);
+         margin-top: 3px;
+         transition: 1s;
+    }
+    .medsos:hover .tiga img {
+        transform: scale(1.2);
+        margin-top: 3px;
+        transition: 1s;
+    }
+footer {
+    color: rgb(236, 234, 234);
+    position: absolute;
+    right: 550px;
+    bottom: -100%;
+}
+
+@media (width < 768px) {
+
+    body {
+        overflow-x: hidden; /* Hilangkan scroll horizontal */
+    }
+
+    .head {
+        font-size: 50px; /* Kecilkan judul */
+        text-align: center;
+    }
+
+    .web {
+        font-size: 16px;
+        /* text-align: center; */
+        justify-content: flex-start;
+    }
+
+    h3 {
+        position: relative;
+        bottom: auto;
+        left: auto;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .gambar {
+        position: relative;
+        right: auto;
+        top: auto;
+        max-width: 90%;
+        margin: 90px;
+        display: block;
+    }
+
+    .about {
+        width: 90%;
+        position: relative;
+        top: auto;
+        right: auto;
+        margin: 10px auto;
+        text-align: center;
+    }
+    .logo {
+        position: relative;
+        top: auto;
+        right: auto;
+    }
+
+    .about2 {
+        position: relative;
+        bottom: auto;
+        right: auto;
+        width: 100%;
+        text-align: center;
+    }
+
+    .head2 {
+        font-size: 30px;
+        position: relative;
+        right: auto;
+        top: auto;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .conteiner {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        height: 200px;
+        position: relative;
+        right: auto;
+        top: auto;
+        margin: 20px auto;
+        padding: 10px;
+        overflow-y: auto;
+    }
+
+    .box {
+        width: 30px;
+        height: 50px;
+        margin: auto;
+        transition: .10s;
+        margin-top: 10px;
+        animation: animasiboxMobile 5s ease infinite forwards;
+    }
+    @keyframes animasiboxMobile {
+        0% {
+            width: 50%;
+            height: 80px;
+        }
+        50% {
+            width: 50%;
+            height: 80px;
+        }
+        100% {
+            width: 100%;
+            height: 100px;
+        }
+    }
+    .box:hover {
+        transform: scale(1);
+    }
+
+    .medsos {
+        font-size: 16px;
+        position: relative;
+        right: auto;
+        top: auto;
+        justify-content: center;
+        gap: 50px;
+        margin: 20px 10px;
+    }
+
+    footer {
+        position: relative;
+        right: auto;
+        bottom: auto;
+        text-align: center;
+        margin-top: 30px;
+    }
+}
+
+/* Untuk tablet (481px - 768px) */
+/* @media (min-width: 481px) and (max-width: 768px) {
+    .head {
+        font-size: 40px;
+        text-align: center;
+    }
+    .conteiner {
+        width: 80%;
+        position: relative;
+        margin: 20px auto;
+    }
+    .medsos {
+        justify-content: center;
+    }
+} */
+
+    
